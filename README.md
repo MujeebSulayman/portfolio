@@ -9,7 +9,6 @@
 <img src='./project_images/navbar.png' />
 <img src='./project_images/services.png' />
 <img src='./project_images/portfolio.png' />
-<img src='./project_images/testimonials.png' />
 <img src='./project_images/contact.png' />
 
 ## Mobile Responsive
