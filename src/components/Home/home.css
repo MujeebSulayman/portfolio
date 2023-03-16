@@ -39,7 +39,7 @@
   align-items: left;
 }
 
-.content .home-btn {
+/* .content .home-btn {
   font-size: large;
   display: inline-block;
   margin-bottom: 1rem;
@@ -58,7 +58,8 @@
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
   background-color: transparent;
-}
+} */
+
 
 /* Medium */
 @media screen and (min-width: 481px) {}
@@ -77,11 +78,13 @@
     display: block !important;
     width: 90%;
     height: 90%;
+    
   }
 
   .svg img {
     width: 100%;
     height: 100%;
+    border-radius: 10%;
     color: var(--primary-color);
   }
 

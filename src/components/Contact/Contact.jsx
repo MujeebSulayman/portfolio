@@ -41,8 +41,8 @@ const Contact = () => {
     setValues(INITIAL_VALUES);
   };
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
     // console.log("form submitted !", values);
     // TODO : Send data to your email
     setLoading(true);
@@ -52,10 +52,10 @@ const Contact = () => {
     setNotification(true);
   };
 
-  const handleChange = (event) => {
+  const handleChange = (e) => {
     setValues({
       ...values,
-      [event.target.name]: event.target.value,
+      [e.target.name]: e.target.value,
     });
   };
 
