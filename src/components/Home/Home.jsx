@@ -42,7 +42,7 @@ const Home = () => {
         <h2>My Personal Portfolio</h2>
         <p>
           I'm a
-          <span style={{ fontWeight: '400', marginLeft: '2%' }}>
+          <span style={{ fontWeight: '400', marginLeft: '1%' }}>
             <Typed
               strings={['Mern Stack Developer']}
               typeSpeed={40}
